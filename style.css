@@ -17,6 +17,25 @@ body{
     margin-left: 10px;
 }
 
+section{
+    background-color: aliceblue;
+    display: flex;
+}
+
+article{
+    background-color: lightcyan;
+    padding: 20px;
+    margin: 20px;
+}
+
+article:nth-of-type(1){
+    flex: 300px;
+}
+
+article:nth-of-type(2){
+    flex: 300px;
+}
+
 h1{
     font-size: 3em;
     margin: 0;
@@ -62,11 +81,11 @@ button{
 }
 
 .blog-post{ 
-    border-bottom: 1px dotted #ccc;
+    border-bottom: 1px dotted black;
 }
 
 .menu{
-    background-color: lightskyblue;
+    background-color: lightcyan;
     position: sticky;
     top: 0;
 }
