@@ -11,6 +11,12 @@ body{
     background: #fff;
 }
 
+.img-container{
+    background-color: darkviolet;
+    float: left;
+    margin-left: 10px;
+}
+
 h1{
     font-size: 3em;
     margin: 0;
@@ -59,3 +65,8 @@ button{
     border-bottom: 1px dotted #ccc;
 }
 
+.menu{
+    background-color: lightskyblue;
+    position: sticky;
+    top: 0;
+}
