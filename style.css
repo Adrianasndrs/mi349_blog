@@ -8,7 +8,9 @@ body{
     padding: 40px;
     color: #242424;
     border-top: 10px solid #242424;
-    background: #fff;
+    border-radius: 15px;
+    background: lightgray;
+    text-align: center;
 }
 
 .img-container{
@@ -16,16 +18,21 @@ body{
     float: left;
     margin-left: 10px;
 }
-
+img{
+    border-radius: 15px;
+    box-shadow: 0 3px 10px lightslategray;
+}
 section{
-    background-color: aliceblue;
+    background-color: #242424;
+    border-radius: 15px;
     display: flex;
 }
 
 article{
     background-color: lightcyan;
-    padding: 20px;
-    margin: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
 }
 
 article:nth-of-type(1){
@@ -51,8 +58,18 @@ h2{
 h3{
     font-size: 1em;
     margin: 1;
+    
 }
 
+h4{
+    color: aliceblue;
+    text-shadow: 0 3px 10px lightslategray;
+}
+
+h5{
+    color: aliceblue;
+    text-shadow: 0 3px 10px lightslategray;
+}
 form{
     text-align: center;
 }
@@ -64,20 +81,19 @@ p{
 
 ul{
     text-align: center;
+    list-style-type: none;
 }
 
 table{
     text-align: center;
     border: #242424;
+    color: aliceblue;
 }
 
-button{
-    text-align: center;
-    color: #242424;
-}
 
 #blog{
     border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
 }
 
 .blog-post{ 
@@ -86,6 +102,28 @@ button{
 
 .menu{
     background-color: lightcyan;
+    border-radius: 15px;
     position: sticky;
     top: 0;
+}
+
+
+@media (max-width: 400px){
+    section{
+        background-color: lightpink;
+        display: flex;
+    }
+
+    .menu{
+        background-color: lightpink;
+    }
+    
+    body{
+        margin: auto;
+        display: flexbox;
+    }
+
+    .blog-post{
+        size: 0;
+    }
 }
