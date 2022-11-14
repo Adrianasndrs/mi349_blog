@@ -110,8 +110,8 @@ table{
 
 @media (max-width: 400px){
     section{
-        background-color: lightpink;
         display: flex;
+        
     }
 
     .menu{
@@ -121,6 +121,7 @@ table{
     body{
         margin: auto;
         display: flexbox;
+        align-self: auto;
     }
 
     .blog-post{
