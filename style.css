@@ -21,6 +21,7 @@ body{
 img{
     border-radius: 15px;
     box-shadow: 0 3px 10px lightslategray;
+    align-self: center;
 }
 section{
     background-color: #242424;
